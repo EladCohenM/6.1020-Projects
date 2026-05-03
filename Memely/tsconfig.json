@@ -1,0 +1,37 @@
+{
+  "include": [
+    "./src/*.ts",
+    "./test/*.ts",
+  ],
+  
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    
+    "target": "esnext",
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "rewriteRelativeImportExtensions": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "types": ["node", "mocha"]
+  },
+  
+  "typedocOptions": {
+    "entryPoints": [
+      "src/commands.ts",
+      "src/expression.ts",
+      "src/expressionparser.ts",
+      "src/imagelibrary.ts"
+    ],
+    "out": "doc",
+    "disableSources": true,
+    "excludePrivate": true,
+    "readme": "none"
+  },
+}

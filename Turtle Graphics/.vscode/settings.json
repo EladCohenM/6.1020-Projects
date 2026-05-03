@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        ".vscode/": true,
+        "node_modules/": true,
+        "dist/": true,
+        "**/.DS_Store": true,
+        "**/.gitignore": true,
+        "package-lock.json": true,
+        ".npmrc": true,
+        "eslint.config.mjs": true
+    },
+    "chat.disableAIFeatures": true,
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false
+}

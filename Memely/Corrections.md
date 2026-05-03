@@ -1,0 +1,1 @@
+DRY the image methods

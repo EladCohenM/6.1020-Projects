@@ -1,0 +1,37 @@
+{
+  "include": [
+    "./src/*.ts",
+    "./test/*.ts",
+  ],
+  
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    
+    "target": "esnext",
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "rewriteRelativeImportExtensions": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  
+  "typedocOptions": {
+    "entryPoints": [
+      "src/interval.ts",
+      "src/intervalset.ts",
+      "src/intervalset-impls.ts",
+      "src/multiintervalset.ts",
+      "src/similarity.ts"
+    ],
+    "out": "doc",
+    "disableSources": true,
+    "excludePrivate": true,
+    "readme": "none"
+  },
+}
